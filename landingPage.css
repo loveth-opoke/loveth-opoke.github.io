@@ -1,0 +1,51 @@
+ body,html { 
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    background: url(working-images.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  h1{
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: #fff;
+
+  }
+  h2{
+    text-transform: uppercase;
+    font-size: 3rem;
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .btn-xl{
+    padding: 1rem 2rem;
+    text-transform: uppercase;
+  }
+  .btn{
+    font-weight: 700px;
+    border-radius: 300px;
+    
+  }
+  .btn-primary{
+    background-color: #F05F44;
+    border: 3px solid #F05F44;
+    transition: 1s;
+  }
+  .btn-primary:hover{
+    background-color: lightgray;
+    color: #000;
+    border: 1px solid #F05F44;
+    transform: scale(1.1);
+    text-decoration: underline #F05F44;
+
+  }
+  hr {
+    margin: 20px auto;
+    color: #F05F44;
+    border: 3px solid #F05F44;
+    max-width: 65px;
+    opacity: 1;  
+}
